@@ -1,3 +1,4 @@
+<img width="1446" height="452" alt="Ekran görüntüsü 2026-06-14 153430" src="https://github.com/user-attachments/assets/a245c747-5516-4897-8c66-b022dbd6c60b" /><img width="1424" height="531" alt="Ekran görüntüsü 2026-06-14 151713" src="https://github.com/user-attachments/assets/95d862fb-8bdc-440c-9ebb-60b0b3556ea4" />
 # TESTING.md — Test ve Doğrulama
  
 ---
@@ -21,7 +22,11 @@ YZ ve makine öğrenmesi konulu 2 sayfalık Türkçe belge.
 | Otonom araç alanında hangi şirketler yatırım yapıyor? | Tesla, Waymo, Mercedes-Benz | ✅ Doğru |
 | GPT-4'ün kaç parametresi var? | Bu bilgi belgede yer almamaktadır. | ✅ Doğru (tuzak) |
 | Derin öğrenmenin dezavantajları nelerdir? | Bu bilgi belgede yer almamaktadır. | ✅ Doğru (tuzak) |
- 
+
+<img width="1424" height="531" alt="Ekran görüntüsü 2026-06-14 151713" src="https://github.com/user-attachments/assets/792775e6-ee69-4136-9f84-a918bd99c3a7" />
+<img width="1442" height="744" alt="Ekran görüntüsü 2026-06-14 151803" src="https://github.com/user-attachments/assets/59e89d9c-2cf3-432f-96f4-fb7abace3bc1" />
+<img width="1433" height="664" alt="Ekran görüntüsü 2026-06-14 152055" src="https://github.com/user-attachments/assets/003984de-d9c0-4962-9e11-9171e3688698" />
+
 ---
  
 ## 2. Türkçe Uzun PDF (`turkce_uzun.pdf`)
@@ -36,12 +41,20 @@ Türkiye sektörel değerlendirme raporu, 6+ sayfa.
 | Trendyol'un değerlemesi hangi rakamla belirtilmiş ve bu onu nasıl bir konuma getiriyor? | Trendyol'un değerlemesi 16,5 milyar dolar olarak belirtilmiştir ve bu değerlemeyle bölgenin en değerli teknoloji şirketi olma unvanını korumaktadır. | ✅ Doğru |
 | Türkiye'nin 2024 yılı enflasyon hedefi yüzde kaçtır? | Bu bilgi belgede yer almamaktadır. | ✅ Doğru (tuzak) |
 | Papara'nın kullanıcı sayısı kaçtır? | Bu bilgi belgede yer almamaktadır. | ✅ Doğru (tuzak) |
- 
+
+<img width="1433" height="664" alt="Ekran görüntüsü 2026-06-14 152055" src="https://github.com/user-attachments/assets/059dcdcb-83bd-4fb9-a39e-193c47548602" />
+<img width="1452" height="629" alt="Ekran görüntüsü 2026-06-14 152109" src="https://github.com/user-attachments/assets/8e540869-dbaa-4f48-99cb-e21922c1a1bf" />
+
 ### Debug Paneli Gözlemi
  
 "Türkiye'nin 2024 yılı enflasyon hedefi yüzde kaçtır?" sorusunu debug panelinde test ettim. Retrieval 3 chunk döndürdü (skor: 0.876, 0.858, 0.833) — belgede enflasyondan bahseden bölümler geldi ama hedef rakamı hiçbirinde yoktu. LLM doğru şekilde "bu bilgi belgede yer almamaktadır" dedi.
- 
----
+
+<img width="1411" height="761" alt="Ekran görüntüsü 2026-06-14 220838" src="https://github.com/user-attachments/assets/1f7ffd7a-c22d-4e01-8bd5-aa897d065ed9" />
+
+---<img width="1457" height="654" alt="Ekran görüntüsü 2026-06-14 153416" src="https://github.com/user-attachments/assets/aae9cbcf-fb36-4e80-bcc7-7b3aa4444166" />
+<img width="1457" height="654" alt="Ekran görüntüsü 2026-06-14 153416" src="https://github.com/user-attachments/assets/99891ce6-af65-41fc-b5f7-583ce6d093aa" />
+
+
  
 ## 3. İngilizce Tablolu PDF (`english_with_tables.pdf`)
  
@@ -53,8 +66,12 @@ Global ekonomi göstergeleri, iki tablo içeriyor.
 | Which country has the largest population but lower GDP per capita than Brazil? | India has the largest population but a lower GDP per capita than Brazil. | ✅ Doğru (çıkarım gerektiriyor) |
 | Did Germany experience any economic contraction in 2024? Which quarter? | Yes, Germany experienced mild contraction in Q2 2024. | ✅ Doğru |
 | What is France's quarterly GDP growth rate for Q3 2024? | Bu bilgi belgede yer almamaktadır. / This information is not found in the document. | ✅ Doğru (tuzak) |
-| What does the IMF project for 2026 global GDP growth? | Bu bilgi belgede yer almamaktadır. / This information is not found in the document. | ✅ Doğru (tuzak) |
- 
+| What does the IMF project for 2026 global GDP growth? | Bu bilgi belgede yer almamaktadır. / This information is not found in the document. | ✅ Doğru (tuzak) |<img width="1467" height="702" alt="Ekran görüntüsü 2026-06-14 171844" src="https://github.com/user-attachments/assets/031e4f68-b74c-47c2-8604-a1f9a65a521e" />
+
+
+<img width="1457" height="654" alt="Ekran görüntüsü 2026-06-14 153416" src="https://github.com/user-attachments/assets/43976861-d741-4bfb-8eb0-7b6f257e6f09" />
+<img width="1446" height="452" alt="Ekran görüntüsü 2026-06-14 153430" src="https://github.com/user-attachments/assets/ffba278b-542b-4335-a890-9d0ff0d59098" />
+
 ---
  
 ## 4. İngilizce Orta Boy PDF (`english_medium.pdf`)
@@ -68,7 +85,10 @@ Yenilenebilir enerji teknolojileri, 4 sayfa.
 | Where is the Hornsdale Power Reserve located and what did it demonstrate? | The Hornsdale Power Reserve is located in South Australia. It demonstrated that battery storage could respond to grid events faster than conventional power plants. | ✅ Doğru |
 | What percentage of global greenhouse gas emissions are covered by carbon pricing? | Approximately 23 percent of global greenhouse gas emissions are covered by carbon pricing instruments. | ✅ Doğru (belgede derine gömülü bilgi) |
 | What is the efficiency of the best solar panel currently available for purchase? | Modern commercial solar panels achieve efficiencies of 20 to 23 percent. Laboratory records have exceeded 29 percent. | ⚠️ Kısmi (tuzak sorusuna belgedeki en yakın bilgiyi verdi, "en iyi satın alınabilir panel" bilgisi belgede yok ama bunu söylemedi) |
- 
+
+<img width="1467" height="702" alt="Ekran görüntüsü 2026-06-14 171844" src="https://github.com/user-attachments/assets/6a6bf02e-60ec-4837-bf86-87158d32fc37" />
+<img width="1446" height="452" alt="Ekran görüntüsü 2026-06-14 153430" src="https://github.com/user-attachments/assets/d6dab946-3241-4c00-af99-92f09aca6c38" />
+
 ---
  
 ## 5. Taranmış Belge (`taranmis_belge.png`)
@@ -84,10 +104,12 @@ Tarım Bakanlığı başvuru formu, checkbox'lı taranmış görüntü.
 | Hangi destek türleri işaretlenmiş? | OCR önişleme sonrası: Gübre desteği, Tohum desteği, Sulama altyapısı desteği | ✅ Doğru — Makine alımı işaretsizdi, doğru filtrelendi |
 | Başvuru ne zaman onaylandı? | Bu bilgi belgede yer almamaktadır. / This information is not found in the document. | ✅ Doğru (tuzak) |
 | Başvurucunun banka hesap numarası nedir? | Bu bilgi belgede yer almamaktadır. / This information is not found in the document. | ✅ Doğru (tuzak) |
+
+<img width="1447" height="764" alt="Ekran görüntüsü 2026-06-14 172040" src="https://github.com/user-attachments/assets/c102690e-7d3f-4aca-a266-400a755c1ee0" />
+<img width="1470" height="696" alt="Ekran görüntüsü 2026-06-14 172052" src="https://github.com/user-attachments/assets/850d5adc-2b6f-44fa-91c3-b69d74bc3946" />
  
 ### Checkbox OCR Süreci
- 
-OCR önişleme eklenmeden önce sistem checkbox'ları yanlış okuyordu — `[X]` karakteri `LX)` olarak, `[ ]` karakteri `| 1)` olarak geliyordu. LLM bu OCR gürültüsünü ayırt edemediği için işaretsiz olan "Makine alımı desteği" de işaretli olarak gösterildi.
+ <img width="1467" height="702" alt="Ekran görüntüsü 2026-06-14 171844" src="https://github.com/user-attachments/assets/493e2c5b-8c11-48c7-8b8f-b6ce6532ca5c" />klenmeden önce sistem checkbox'ları yanlış okuyordu — `[X]` karakteri `LX)` olarak, `[ ]` karakteri `| 1)` olarak geliyordu. LLM bu OCR gürültüsünü ayırt edemediği için işaretsiz olan "Makine alımı desteği" de işaretli olarak gösterildi.
  
 Görüntüye 2x büyütme, keskinleştirme ve binary threshold uygulandıktan sonra OCR checkbox sembollerini doğru okudu ve sonuç düzeldi.
  
