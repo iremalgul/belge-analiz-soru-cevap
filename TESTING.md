@@ -1,4 +1,3 @@
-<img width="1446" height="452" alt="Ekran görüntüsü 2026-06-14 153430" src="https://github.com/user-attachments/assets/a245c747-5516-4897-8c66-b022dbd6c60b" /><img width="1424" height="531" alt="Ekran görüntüsü 2026-06-14 151713" src="https://github.com/user-attachments/assets/95d862fb-8bdc-440c-9ebb-60b0b3556ea4" />
 # TESTING.md — Test ve Doğrulama
  
 ---
