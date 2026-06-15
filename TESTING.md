@@ -24,7 +24,6 @@ YZ ve makine öğrenmesi konulu 2 sayfalık Türkçe belge.
 
 <img width="1424" height="531" alt="Ekran görüntüsü 2026-06-14 151713" src="https://github.com/user-attachments/assets/792775e6-ee69-4136-9f84-a918bd99c3a7" />
 <img width="1442" height="744" alt="Ekran görüntüsü 2026-06-14 151803" src="https://github.com/user-attachments/assets/59e89d9c-2cf3-432f-96f4-fb7abace3bc1" />
-<img width="1433" height="664" alt="Ekran görüntüsü 2026-06-14 152055" src="https://github.com/user-attachments/assets/003984de-d9c0-4962-9e11-9171e3688698" />
 
 ---
  
@@ -49,10 +48,6 @@ Türkiye sektörel değerlendirme raporu, 6+ sayfa.
 "Türkiye'nin 2024 yılı enflasyon hedefi yüzde kaçtır?" sorusunu debug panelinde test ettim. Retrieval 3 chunk döndürdü (skor: 0.876, 0.858, 0.833) — belgede enflasyondan bahseden bölümler geldi ama hedef rakamı hiçbirinde yoktu. LLM doğru şekilde "bu bilgi belgede yer almamaktadır" dedi.
 
 <img width="1411" height="761" alt="Ekran görüntüsü 2026-06-14 220838" src="https://github.com/user-attachments/assets/1f7ffd7a-c22d-4e01-8bd5-aa897d065ed9" />
-
----<img width="1457" height="654" alt="Ekran görüntüsü 2026-06-14 153416" src="https://github.com/user-attachments/assets/aae9cbcf-fb36-4e80-bcc7-7b3aa4444166" />
-<img width="1457" height="654" alt="Ekran görüntüsü 2026-06-14 153416" src="https://github.com/user-attachments/assets/99891ce6-af65-41fc-b5f7-583ce6d093aa" />
-
 
  
 ## 3. İngilizce Tablolu PDF (`english_with_tables.pdf`)
@@ -108,7 +103,7 @@ Tarım Bakanlığı başvuru formu, checkbox'lı taranmış görüntü.
 <img width="1470" height="696" alt="Ekran görüntüsü 2026-06-14 172052" src="https://github.com/user-attachments/assets/850d5adc-2b6f-44fa-91c3-b69d74bc3946" />
  
 ### Checkbox OCR Süreci
- <img width="1467" height="702" alt="Ekran görüntüsü 2026-06-14 171844" src="https://github.com/user-attachments/assets/493e2c5b-8c11-48c7-8b8f-b6ce6532ca5c" />klenmeden önce sistem checkbox'ları yanlış okuyordu — `[X]` karakteri `LX)` olarak, `[ ]` karakteri `| 1)` olarak geliyordu. LLM bu OCR gürültüsünü ayırt edemediği için işaretsiz olan "Makine alımı desteği" de işaretli olarak gösterildi.
+OCR önişleme eklenmeden önce sistem checkbox'ları yanlış okuyordu — `[X]` karakteri `LX)` olarak, `[ ]` karakteri `| 1)` olarak geliyordu. LLM bu OCR gürültüsünü ayırt edemediği için işaretsiz olan "Makine alımı desteği" de işaretli olarak gösterildi.
  
 Görüntüye 2x büyütme, keskinleştirme ve binary threshold uygulandıktan sonra OCR checkbox sembollerini doğru okudu ve sonuç düzeldi.
  
