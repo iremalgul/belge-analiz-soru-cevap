@@ -1,0 +1,46 @@
+services:
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: document-qa-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
+      - CHROMA_PERSIST_DIR=/app/chroma_db
+    volumes:
+      - chroma_data:/app/chroma_db
+      - hf_cache:/root/.cache/huggingface  # model bir kere indirilir, build'de yeniden indirilmez
+      - ./backend:/app  # kaynak kodu mount et — kod değişince restart yeterli
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: document-qa-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://backend:8000
+    volumes:
+      - ./frontend:/app  # kaynak kodu mount et — kod değişince restart yeterli
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
+    driver: local
+  hf_cache:
+    driver: local
