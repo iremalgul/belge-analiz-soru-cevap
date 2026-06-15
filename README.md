@@ -1,5 +1,7 @@
 # Belge Soru-Cevap Sistemi (RAG)
 
+[Uygulama Tanıtım Videosu](https://drive.google.com/file/d/1mg9MxmaNgIGG5fIQPAaVA66a3bVLs7Ik/view?usp=sharing)
+
 PDF ve resim (JPG/PNG) dosyaları yükleyip Türkçe veya İngilizce soru sormanızı sağlayan yerel RAG uygulaması. Sistem yalnızca yüklenen belgelerdeki bilgilere dayanarak yanıt üretir, tahmin veya çıkarım yapmaz.
 
 ## Mimari
